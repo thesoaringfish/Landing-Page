@@ -1,0 +1,58 @@
+/* ===== Reset basics ===== */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Roboto';  
+  line-height: 1.5;
+  display:flex;
+  flex-direction: column;
+}
+
+/* ===== Links ===== */
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+/* ===== Images ===== */
+img {
+  max-width: 100%;
+  display: block;
+}
+
+
+/* styling header */
+header, .hero {
+    background-color: #1F2937;
+    color: white;
+}
+
+.nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    gap:25px;
+}
+
+
+/* styling hero */
+.hero{
+    padding-top: 100px;
+    padding-bottom: 100px;
+    display: flex;
+}
+
+header, section {
+    padding: 50px 120px;
+
+}
