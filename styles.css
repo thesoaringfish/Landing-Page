@@ -7,7 +7,6 @@
 
 body {
   font-family: 'Roboto';  
-  line-height: 1.5;
   display:flex;
   flex-direction: column;
 }
@@ -58,6 +57,16 @@ ul {
     font-size: 48px;
     color: #F9FAF8;
     font-weight: 900;
+}
+
+.hero-section p {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.hero h2 {
+    font-size: 24px;
+    color: #F9FAF8;
 }
 
 header, section {
