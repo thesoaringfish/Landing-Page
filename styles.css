@@ -97,5 +97,46 @@ button {
 
 .information h2 {
     font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+}
+
+.information {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.info-cards {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.card p {
+    padding:10px;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+img {
+    border-radius: 5%;
     
 }
+
+.info-cards img {
+    display: flex;
+    width: 150px;
+    height: auto;
+}
+
+/* quote CSS */
