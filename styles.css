@@ -25,7 +25,7 @@ img {
 
 
 /* styling header */
-header, .hero {
+header, .hero, footer {
     background-color: #1F2937;
     color: white;
 }
@@ -75,7 +75,7 @@ ul {
     color: #F9FAF8;
 }
 
-header, section {
+header, section, footer {
     padding: 50px 120px;
 
 }
@@ -185,4 +185,11 @@ img {
     gap: 10px;
     justify-content: center;
     align-items: flex-start;
+}
+
+footer {
+    display: flex;
+    font-size: 12px;
+    justify-content: center;
+    align-items: center;
 }
